@@ -26,13 +26,19 @@ h2{
     margin-left: 80px;
 }
 .zakat-button{
-    background-image: linear-gradient(to right, #c75562, #f7334a);
+    background-image: linear-gradient(to right, #c75562, #f7334a, #f7334a,  #c75562);
+    background-size: 200%;
+    background-position: right;
     color:#fff;
     border: none;
     padding: 15px 40px;
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+.zakat-button:hover{
+    background-position: left;
 }
 .feature-area{
     padding:20px 80px;
