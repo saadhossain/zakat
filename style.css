@@ -8,8 +8,11 @@ h1{
     color:#fff;
     font-weight: 700;
 }
+h2{
+    font-size: 50px;
+}
 .header-container{
-    height: 600px;
+    height: 100vh;
     background-image: url(img/home-banner-01.jpg);
     background-position: center;
     background-size: cover;
@@ -18,14 +21,37 @@ h1{
     align-items: center;
 }
 .header-description{
+    color:#fff;
     width: 600px;
     margin-left: 80px;
 }
 .zakat-button{
     background-image: linear-gradient(to right, #c75562, #f7334a);
+    color:#fff;
     border: none;
     padding: 15px 40px;
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
+}
+.feature-area{
+    padding:20px 80px;
+    background-color: #eff6ff;
+    color:#000;
+}
+.feature-inner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:50px;
+}
+.feature-des{
+    width: 400px;
+}
+.feature-des:last-child{
+    margin-left:150px;
+}
+.feature-img img{
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px #6e6e6e;
 }
