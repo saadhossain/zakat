@@ -55,3 +55,31 @@ h2{
     border-radius: 10px;
     box-shadow: 5px 5px 30px #6e6e6e;
 }
+
+.donation-des{
+    text-align: center;
+    width: 700px;
+    margin:0 auto;
+}
+.donation-package{
+    display: flex;
+    justify-content: center;
+    padding:30px 80px;
+}
+.package-img img{
+    width: 60px;
+    height: auto;
+    margin:20px;
+
+}
+.package-single{
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+    width: 450px;
+    background-color:antiquewhite ;
+    border-radius: 10px;
+}
+.package-single:first-child{
+    margin-right: 40px;
+}
