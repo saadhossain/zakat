@@ -3,9 +3,29 @@ body{
     padding:0;
     font-family: 'Poppins', sans-serif;
 }
+h1{
+    font-size: 70px;
+    color:#fff;
+    font-weight: 700;
+}
 .header-container{
     height: 600px;
     background-image: url(img/home-banner-01.jpg);
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.header-description{
+    width: 600px;
+    margin-left: 80px;
+}
+.zakat-button{
+    background-image: linear-gradient(to right, #c75562, #f7334a);
+    border: none;
+    padding: 15px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
 }
