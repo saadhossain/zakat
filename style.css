@@ -56,7 +56,7 @@ h2{
     box-shadow: 5px 5px 30px #6e6e6e;
 }
 
-.donation-des{
+.section-des{
     text-align: center;
     width: 700px;
     margin:0 auto;
@@ -82,4 +82,28 @@ h2{
 }
 .package-single:first-child{
     margin-right: 40px;
+}
+.sadakah-package{
+    display: flex;
+    justify-content: center;
+    margin:30px 0px;
+}
+.sadakah-single{
+    width: 350px;
+    margin-right: 20px;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px #6e6e6e;
+}
+.sadakah-single img{
+    border-radius: 10px 10px 0px 0px;
+}
+.sadakah-single h3, p{
+    padding-left:10px;
+}
+.footer-area{
+    background-color:#000;
+    color:#fff;
+    padding:20px 0px;
+    text-align: center;
 }
